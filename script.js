@@ -1,6 +1,6 @@
 const form = document.getElementById('color-form')
-const boxes = document.querySelectorAll('.grid-item')
-const resetBtn = document.getElementById('Reset')
+const boxes = document.querySelectorAll('.grid-box')
+const resetBtn = document.getElementById('reset_button')
 
 form.addEventListener('submit', function(e){
     e.preventDefault()
