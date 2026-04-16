@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#grid-container{
+        display: grid;
+        grid-template-columns: repeat(3,50px);
+        grid-template-rows: repeat(3,50px);
+        gap: 5px;
+        justify-content: center;
+    }
+    .grid-box{
+        border: 1px solid black;
+         font-size: 1rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         /* text-align: center;
+         align-content: center; */
+         
+           /* //rem means root element size of html element , if 2 rem then double the size of html elemnt , em means takes the size of container */
+    } 
+    #color-form{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 5px;
+    }
